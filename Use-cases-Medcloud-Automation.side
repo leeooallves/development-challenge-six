@@ -1,0 +1,1645 @@
+{
+  "id": "b08d4f02-c707-4681-9a2c-18b9fb1764d1",
+  "version": "2.0",
+  "name": "Use-cases-Medcloud",
+  "url": "https://qa.medcloud.link/",
+  "tests": [{
+    "id": "d964488a-d638-4c87-90a4-548b019790af",
+    "name": "Caso 1 - Clicar botão Home",
+    "commands": [{
+      "id": "79af829d-2da0-4968-b71a-780686a6b221",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d9e396f-2971-40d4-be4a-3f4f09b62f5f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94973d87-9810-41db-90b7-698a62cca56d",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerHome",
+      "targets": [
+        ["id=headerHome", "id"],
+        ["css=#headerHome", "css:finder"],
+        ["xpath=//button[@id='headerHome']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ad94906-1c1e-4354-9d6d-2ca7f9e1258f",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//section[@id='Home']/section/h1",
+      "targets": [
+        ["css=.sm\\3Atext-mob11xl", "css:finder"],
+        ["xpath=//section[@id='Home']/section/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "Seus exames\\nna nuvem"
+    }]
+  }, {
+    "id": "155026a9-6abf-4152-aaea-c920e383e0ba",
+    "name": "Caso 2 - Clicar botão RIS",
+    "commands": [{
+      "id": "afbc0e93-772a-40ed-8817-68a1b84a51a9",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b06ef3ab-6607-4b85-9468-cdcdc2d04048",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdd0c0ae-37b7-43e8-8e14-3e5c52e3fe6a",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerRis",
+      "targets": [
+        ["id=headerRis", "id"],
+        ["css=#headerRis", "css:finder"],
+        ["xpath=//button[@id='headerRis']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b26c6ef3-52b9-4934-bd86-98aa54ef89c4",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//section[@id='RIS']/h1",
+      "targets": [
+        ["css=#RIS > .sm\\3Atext-mob10xl", "css:finder"],
+        ["xpath=//section[@id='RIS']/h1", "xpath:idRelative"],
+        ["xpath=//section[2]/section/h1", "xpath:position"]
+      ],
+      "value": "Um RIS pensado para\\na sua gestão"
+    }]
+  }, {
+    "id": "cc71986b-3780-47ba-9a30-cb4a87f6da73",
+    "name": "Caso 4 - Clicar botão Portal",
+    "commands": [{
+      "id": "f2cd8d97-72ef-4d28-9784-7fd3763e63ac",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c61643a4-3b96-4de8-b5fb-b1d83114f81c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59650982-a200-4260-a3c9-f97b4a1ed108",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerPortal",
+      "targets": [
+        ["id=headerPortal", "id"],
+        ["css=#headerPortal", "css:finder"],
+        ["xpath=//button[@id='headerPortal']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[4]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f378db82-413d-4ba4-8c03-d18eca1addea",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//section[@id='Portal']/section/h1",
+      "targets": [
+        ["css=#Portal > .justify-center > .sm\\3Atext-mob10xl", "css:finder"],
+        ["xpath=//section[@id='Portal']/section/h1", "xpath:idRelative"],
+        ["xpath=//section[4]/section/h1", "xpath:position"]
+      ],
+      "value": "A sacola de exames que\\ncabe no seu bolso"
+    }]
+  }, {
+    "id": "99b36457-19e1-4ffd-b8d9-a8760d24f83b",
+    "name": "Caso 3 - Clicar botão PACS",
+    "commands": [{
+      "id": "34f4bc20-8a16-45a7-adcf-58c7845437b9",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "072f867b-71c1-4650-b7ec-c11ad4198c20",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "399f4676-e4e4-424c-90b4-bd474116ac9e",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerPacs",
+      "targets": [
+        ["id=headerPacs", "id"],
+        ["css=#headerPacs", "css:finder"],
+        ["xpath=//button[@id='headerPacs']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4521f071-9ecb-4503-b94a-b9a74e96c615",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"PACS\"]/section/h1",
+      "targets": [
+        ["css=.mt-12 > .sm\\3Atext-mob10xl", "css:finder"],
+        ["xpath=//section[@id='PACS']/section/h1", "xpath:idRelative"],
+        ["xpath=//section[3]/section/h1", "xpath:position"]
+      ],
+      "value": "Seu editor de laudos.\\nReinventado."
+    }]
+  }, {
+    "id": "864b9b7f-77f9-4180-8d86-916cec253eff",
+    "name": "Caso 5 - Clicar botão Contact",
+    "commands": [{
+      "id": "d18018ad-a316-4309-934e-60b8bdeedf9b",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e2ec5e5-b59b-444a-9a4c-ba364c119189",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05b2c8f7-a847-4396-a3c0-15b3d2f4e980",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerContact",
+      "targets": [
+        ["id=headerPortal", "id"],
+        ["css=#headerPortal", "css:finder"],
+        ["xpath=//button[@id='headerPortal']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[4]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "159ebc27-6ba1-4c72-86a4-b56f9d2c7ff7",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//section[@id='Contact']/section/h1",
+      "targets": [
+        ["css=#Portal > .justify-center > .sm\\3Atext-mob10xl", "css:finder"],
+        ["xpath=//section[@id='Portal']/section/h1", "xpath:idRelative"],
+        ["xpath=//section[4]/section/h1", "xpath:position"]
+      ],
+      "value": "Entre em contato"
+    }]
+  }, {
+    "id": "da2c806c-5750-463e-9ff4-2162fecd1e19",
+    "name": "Caso 1: Mover o mouse na opção \"Seu PACS na Nuvem\" ",
+    "commands": [{
+      "id": "eec5f8f9-269d-4ee5-a373-0db883a05eb4",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28768418-9509-40df-b26b-ce69522388a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db4c2c80-dbf4-4be6-a124-2900dc24ab1a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//section[@id='Home']/section/section/div[2]/div[2]/div/h1",
+      "targets": [
+        ["css=.border-primary > .xxl\\3Atext-2xl", "css:finder"],
+        ["xpath=//section[@id='Home']/section/section/div[2]/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Emissão de Laudos Online')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2736440c-cb8b-4f77-aa9a-3cb56c08b564",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//section[@id='Home']/section/section/div/picture",
+      "targets": [
+        ["css=.xxl\\3Amt-18 > picture", "css:finder"],
+        ["xpath=//section[@id='Home']/section/section/div/picture", "xpath:idRelative"],
+        ["xpath=//picture", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9147ef3d-4b57-47e6-b1f8-73369a1b1943",
+    "name": "Caso 2: Mover o mouse na opção \"Emissão de Laudos Online\" ",
+    "commands": [{
+      "id": "a54c450d-5f8e-4e48-b148-cc9dc8a39ecb",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db2a4805-56bd-4dc1-8977-7c60e2b84f48",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4af75bfd-e23b-4075-8e84-5f6437ed930f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//section[@id='Home']/section/section/div[2]/div[2]/div/h1",
+      "targets": [
+        ["css=.border-primary > .xxl\\3Atext-2xl", "css:finder"],
+        ["xpath=//section[@id='Home']/section/section/div[2]/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Emissão de Laudos Online')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a5f2973-20a7-44ea-a885-91124207b241",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//section[@id='Home']/section/section/div/picture",
+      "targets": [
+        ["css=.xxl\\3Amt-18 > picture", "css:finder"],
+        ["xpath=//section[@id='Home']/section/section/div/picture", "xpath:idRelative"],
+        ["xpath=//picture", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7632587d-b9cb-4516-b2ac-1b08a2181e91",
+    "name": "Caso 3: Mover o mouse na opção \"Seu RIS na Nuvem\" ",
+    "commands": [{
+      "id": "07746916-c1e4-483b-9054-cd7741a37159",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ded8e36e-d7d4-45cc-aa81-a45d2d769c01",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d177646d-8cee-423b-8d61-34e6770423da",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//section[@id='Home']/section/section/div[2]/div[2]/div/h1",
+      "targets": [
+        ["css=.border-primary > .xxl\\3Atext-2xl", "css:finder"],
+        ["xpath=//section[@id='Home']/section/section/div[2]/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Emissão de Laudos Online')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dab88fb2-d03b-4046-98d1-c98f42168154",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//section[@id='Home']/section/section/div/picture",
+      "targets": [
+        ["css=.xxl\\3Amt-18 > picture", "css:finder"],
+        ["xpath=//section[@id='Home']/section/section/div/picture", "xpath:idRelative"],
+        ["xpath=//picture", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e353f9f8-d8d9-4e25-9a1c-d0e118b644d2",
+    "name": "Caso 1: Clicar no botão \"Testar Grátis\" do menu superior, abrir o formulário e fechar ",
+    "commands": [{
+      "id": "f2c7b8ed-812c-4806-8d0d-c3d7db2f7bcc",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c1eaeec-a5ab-4077-9583-7aaaa262f591",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68686bde-5509-4020-8cac-2630558bb03f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Testar grátis')]",
+      "targets": [
+        ["css=.h-full > .text-white", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/nav/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Testar grátis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b912e51b-51c0-458f-b2a6-23c0331676b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.z-50:nth-child(4) path",
+      "targets": [
+        ["css=.z-50:nth-child(4) path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "761f7b66-7207-4541-baaa-1019d010ef67",
+    "name": "Caso 2: Clicar no botão \"Testar Grátis\" na page \"Planos\", abrir o formulário e fechar ",
+    "commands": [{
+      "id": "a188ffb1-d2d7-4685-bbd6-f7a6cdfe3504",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04f3198e-1e64-41fa-be3b-1af9fb3cb8b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fd06541-88dc-42e2-b08e-c7d84eb299b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerPlans",
+      "targets": [
+        ["id=headerContact", "id"],
+        ["css=#headerContact", "css:finder"],
+        ["xpath=//button[@id='headerContact']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[6]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edb4e2b4-175d-4ff7-90a6-de7452b48581",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//section[@id='Plans']/section/div/div/div/div/div/div/div/div[7]/button",
+      "targets": [
+        ["css=.w-1\\/2:nth-child(1) .xxl\\3Atext-base", "css:finder"],
+        ["xpath=(//button[@type='button'])[21]", "xpath:attributes"],
+        ["xpath=//section[@id='Plans']/section/div/div/div/div/div/div/div/div[7]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d3ce0d2-e890-43bc-8214-aa091f502c6b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.z-50:nth-child(4) .text-2xl",
+      "targets": [
+        ["css=.z-50:nth-child(4) .text-2xl", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Experimente por 14 dias!')]", "xpath:innerText"]
+      ],
+      "value": "Experimente por 14 dias!"
+    }, {
+      "id": "f56a66a2-c802-413d-b511-e2399ebbf104",
+      "comment": "",
+      "command": "click",
+      "target": "css=.z-50:nth-child(4) .fill-current",
+      "targets": [
+        ["css=.z-50:nth-child(4) .fill-current", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ecd9aa36-4c47-4549-9e14-0a5cb9c55d57",
+    "name": "Caso 1: Enviar formulário vazio ",
+    "commands": [{
+      "id": "66a19dcd-0ae1-4768-99ae-fda4c8937fe4",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fb5b503-9238-4cce-8bb7-6a3e79f04be5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd261574-c2fc-40bb-aa8a-5bdb6b452ad0",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerContact",
+      "targets": [
+        ["id=headerContact", "id"],
+        ["css=#headerContact", "css:finder"],
+        ["xpath=//button[@id='headerContact']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[6]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07c5a9c1-3779-4b2d-b002-c8a7a06a5215",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Enviar')]",
+      "targets": [
+        ["css=.xxl\\3Ah-12", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c900549-a8f9-4fca-ace1-7ce4c0bb1b49",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Campo obrigatório faltante.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6cfb784-2aa3-405a-898a-bc546d8b095a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xxl\\3Ah-12",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b6ed033-2b62-4ad6-bc77-de3031af98d1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6e30a584-caa1-4c9b-9156-c398ef581f02",
+    "name": "Caso 2: Preencher apenas o campo Nome e enviar ",
+    "commands": [{
+      "id": "88331147-261e-4441-ac6d-298b95a28fe9",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e394563-6f56-493f-8550-bbd37ef73ccb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0813e8a4-3d5f-4f3c-8bd1-490b0315ef67",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerContact",
+      "targets": [
+        ["id=headerContact", "id"],
+        ["css=#headerContact", "css:finder"],
+        ["xpath=//button[@id='headerContact']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[6]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbed5c18-da9a-4dee-9c16-4c8735959f35",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@id='name'])[2]",
+      "targets": [
+        ["css=.flex > .flex-col #name", "css:finder"],
+        ["xpath=(//input[@id='name'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section/form/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Joazinho"
+    }, {
+      "id": "fa9610e3-04dc-4443-9c81-fdd739e0b3a3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Enviar')]",
+      "targets": [
+        ["css=.xxl\\3Ah-12", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28733afc-f5bf-4480-b8fe-271b9a601921",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Campo obrigatório faltante.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8fdce57-53df-4609-ac27-60230b0f0ef1",
+      "comment": "",
+      "command": "webdriverChooseCancelOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "284841a3-ddc9-48cd-9383-3f4278df8bcc",
+    "name": "Caso 3: Preencher apenas o campo Email e enviar",
+    "commands": [{
+      "id": "50d1c21d-ae9a-41c4-8bec-f25ea27d3172",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b95a633b-bf7c-4bd0-8420-b08b4f64d7f5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54cd16c1-b8e8-464c-a422-c7ac80329666",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerContact",
+      "targets": [
+        ["id=headerContact", "id"],
+        ["css=#headerContact", "css:finder"],
+        ["xpath=//button[@id='headerContact']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[6]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f0e80dd-efed-4136-9d38-d7a191a378d0",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@id='email'])[2]",
+      "targets": [
+        ["css=.flex > .flex-col #email", "css:finder"],
+        ["xpath=(//input[@id='email'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section/form/div/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Joazinho@teste.com"
+    }, {
+      "id": "d977dcf5-4d7b-4063-861a-b462d55d0713",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Enviar')]",
+      "targets": [
+        ["css=.xxl\\3Ah-12", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cab10ad-b0a0-459c-be80-725844eb3999",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Campo obrigatório faltante.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4e280f4-1322-4eee-982e-ea78be5c4206",
+      "comment": "",
+      "command": "webdriverChooseCancelOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ae43a12-e751-43f3-bd4d-08520b3378c1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f907c7bd-681c-4d70-b66b-2d78f987df97",
+    "name": "Caso 4: Preencher apenas o campo Telefone e enviar ",
+    "commands": [{
+      "id": "26fdd77b-6889-47c7-9862-bac954686ca7",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48630086-3345-437a-ad94-fb41463d0171",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "614ed1df-4a67-468b-a0bf-74db03db2ad4",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerContact",
+      "targets": [
+        ["id=headerContact", "id"],
+        ["css=#headerContact", "css:finder"],
+        ["xpath=//button[@id='headerContact']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[6]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d31d0efc-5b98-46ce-b1d1-dc4a4050d9a9",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@name='telefone-input'])[2]",
+      "targets": [
+        ["css=.flex > .flex-col #email", "css:finder"],
+        ["xpath=(//input[@id='email'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section/form/div/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "41999662244"
+    }, {
+      "id": "192b8a02-ee1d-4dda-ba07-fadd5793c493",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Enviar')]",
+      "targets": [
+        ["css=.xxl\\3Ah-12", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0e41492-3979-4f5b-b0f0-67fd17aa8392",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Campo obrigatório faltante.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de5b1c1d-5c62-4060-8f0d-c2d7b72cdbde",
+      "comment": "",
+      "command": "webdriverChooseCancelOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e42900c-3f25-4bf7-8556-c9496808b82c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9efa1615-9004-404f-ba57-e961db7bd011",
+    "name": "Caso 5: Preencher apenas o campo Mensagem e enviar ",
+    "commands": [{
+      "id": "fd8017bd-23cf-4f7f-b97b-7b0d943483b5",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5c4e43d-f2fe-45ca-be41-11e05b4814fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42219c5d-dcb9-4e6b-b917-e02f46979f22",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerContact",
+      "targets": [
+        ["id=headerContact", "id"],
+        ["css=#headerContact", "css:finder"],
+        ["xpath=//button[@id='headerContact']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[6]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72d10142-9898-404f-8db3-5bf0a1e5376d",
+      "comment": "",
+      "command": "type",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "testando"
+    }, {
+      "id": "ea125a3d-9c8c-4c46-8d21-4eed40d50208",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Enviar')]",
+      "targets": [
+        ["css=.xxl\\3Ah-12", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5657ae21-c064-41c3-9416-b229207d0579",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Campo obrigatório faltante.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "326ab6b6-50f4-4b9e-80e6-4b3c515ba94d",
+      "comment": "",
+      "command": "webdriverChooseCancelOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad230439-5d52-49d9-8a3f-baae75657e74",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "67eaf301-329a-4d96-9297-529e428eb96b",
+    "name": "Caso 6: Preencher todos os campos e enviar",
+    "commands": [{
+      "id": "207b7bde-118c-4ddb-a142-832ae2b5ee24",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4bfa650-cdaf-4f0d-8da7-174624451864",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "036e78bb-1307-436b-ad79-0790a57776d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerContact",
+      "targets": [
+        ["id=headerContact", "id"],
+        ["css=#headerContact", "css:finder"],
+        ["xpath=//button[@id='headerContact']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[6]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e2b9bd0-1ad9-422b-9d34-e76fa9e2bece",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@id='name'])[2]",
+      "targets": [],
+      "value": "Joao da Silva Sauro"
+    }, {
+      "id": "5ab0ad3a-4093-4faa-9fbf-11f9563372ca",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@id='email'])[2]",
+      "targets": [],
+      "value": "joaozinho@teste.com"
+    }, {
+      "id": "261876b4-54b0-4678-9dff-c527de46abb0",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@name='telefone-input'])[2]",
+      "targets": [],
+      "value": "41999998855"
+    }, {
+      "id": "5a6cddff-c7ab-4d1b-b6b5-543751a1e768",
+      "comment": "",
+      "command": "type",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "testando"
+    }, {
+      "id": "0e450d29-7959-48fb-8b75-7f94d7d97a80",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Enviar')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a712ecd9-7572-41c7-94eb-b11d950aba74",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//span[contains(.,'Mensagem enviada com sucesso.')]",
+      "targets": [],
+      "value": "Mensagem enviada com sucesso."
+    }]
+  }, {
+    "id": "81814de3-3f9f-4b5c-835c-67819180e159",
+    "name": "Caso 1: Alterar o idioma do site para Espanhol ",
+    "commands": [{
+      "id": "2785af8b-c7b2-4e03-be37-36f75da0a748",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9c0d561-9876-4591-87cb-33b28af2f941",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6b191e4-541e-4958-bb82-d7e9c5011fe8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Espanhol')]",
+      "targets": [
+        ["css=.sm\\3Amb-8", "css:finder"],
+        ["xpath=(//button[@type='button'])[36]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section[7]/section/div[2]/section[3]/button[3]", "xpath:idRelative"],
+        ["xpath=//section[3]/button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Espanhol')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9cf6fde-ee65-4713-a2c6-be14bf2c988a",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//p[contains(.,'Contáctenos')]",
+      "targets": [
+        ["css=.w-2\\/4 > .text-base", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//section[7]/section/div/div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Contáctenos')]", "xpath:innerText"]
+      ],
+      "value": "Contáctenos"
+    }]
+  }, {
+    "id": "aa2c72f2-9d66-4627-ab06-6cd6f7f52d06",
+    "name": "Caso 2: Alterar o idioma do site para inglês ",
+    "commands": [{
+      "id": "2e26c888-0eee-4601-a90b-00ec7dc4b8bb",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eeb0edf5-c0a9-4e0e-9d8f-aef4d61f5773",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d35e442-ad32-42b9-95e0-9901dd45c600",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Espanhol')]",
+      "targets": [
+        ["css=.sm\\3Amb-8", "css:finder"],
+        ["xpath=(//button[@type='button'])[36]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section[7]/section/div[2]/section[3]/button[3]", "xpath:idRelative"],
+        ["xpath=//section[3]/button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Espanhol')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52bdd467-a48e-4fda-a7b5-bff29d53cd6b",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//p[contains(.,'Contact')]",
+      "targets": [
+        ["css=.w-2\\/4 > .text-base", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//section[7]/section/div/div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Contáctenos')]", "xpath:innerText"]
+      ],
+      "value": "Contáctenos"
+    }]
+  }, {
+    "id": "480fd6a4-2d5d-4c82-bfb6-3e956ecb8e8f",
+    "name": "Caso 3: Alterar o idioma do site para português após ter sido alterado ",
+    "commands": [{
+      "id": "ddd59214-1a40-496c-a7be-bc6539d1e90d",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21be9a0d-b968-4f0c-a021-b523488fcd1a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5160f195-16a8-48ef-9c2b-9580c37ffcfb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Espanhol')]",
+      "targets": [
+        ["css=.sm\\3Amb-8", "css:finder"],
+        ["xpath=(//button[@type='button'])[36]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section[7]/section/div[2]/section[3]/button[3]", "xpath:idRelative"],
+        ["xpath=//section[3]/button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Espanhol')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47c61a61-5d24-4274-85c7-28aa40b89283",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Portugués - BR')]",
+      "targets": [
+        ["css=.sm\\3Amb-8", "css:finder"],
+        ["xpath=(//button[@type='button'])[36]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section[7]/section/div[2]/section[3]/button[3]", "xpath:idRelative"],
+        ["xpath=//section[3]/button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Espanhol')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4e2f806-954d-48cf-97df-63df82e49174",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//p[contains(.,'Contact')]",
+      "targets": [
+        ["css=.w-2\\/4 > .text-base", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//section[7]/section/div/div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Contáctenos')]", "xpath:innerText"]
+      ],
+      "value": "Contate-nos"
+    }]
+  }, {
+    "id": "48301306-0ec3-4b19-95a9-5c9fd0afd621",
+    "name": "Caso 1: Acessar a tela Sobre e retornar a página Home ",
+    "commands": [{
+      "id": "f623eb88-d97d-497f-82f7-273e39132696",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e3054a2-c779-4bb5-bfa3-e49e404e3e70",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebfea6f8-7656-4d90-9d2b-052ebcae361a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sobre",
+      "targets": [
+        ["linkText=Sobre", "linkText"],
+        ["css=li:nth-child(1) > .hover\\3Atext-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Sobre')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'about.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sobre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0d6ebb4-50d8-40f8-ad03-ed2ef60f1bf2",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//section[@id='AboutUs']/h3",
+      "targets": [
+        ["css=.leading-10:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='AboutUs']/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Sobre nós')]", "xpath:innerText"]
+      ],
+      "value": "Sobre nós"
+    }, {
+      "id": "13a869a2-7d30-494a-bf75-9192a4e81020",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a",
+      "targets": [
+        ["css=.pl-4", "css:finder"],
+        ["xpath=//div[@id='__next']/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8071da9e-f02d-407b-99a8-badcb5e19819",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=headerHome",
+      "targets": [
+        ["id=headerHome", "id"],
+        ["css=#headerHome", "css:finder"],
+        ["xpath=//button[@id='headerHome']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": "Home"
+    }]
+  }, {
+    "id": "e2148411-beee-4f77-8b3f-262bde204008",
+    "name": "Caso 2: Acessar a tela Carreiras ",
+    "commands": [{
+      "id": "6eefe60e-46dd-4e43-9319-bc4ddd677255",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "475475d5-f3cd-4025-b767-4ebae36e27ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1def7a91-a0ca-4f77-83d2-294d606ca188",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Carreiras",
+      "targets": [
+        ["linkText=Sobre", "linkText"],
+        ["css=li:nth-child(1) > .hover\\3Atext-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Sobre')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'about.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sobre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b7dc064-ca88-4194-8f34-012d767f088a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f2d00a8-2266-4b8a-81c9-c06b12d4e41d",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h1[contains(.,'Faça parte do Time Medcloud!')]",
+      "targets": [
+        ["css=.sm\\3Atext-left", "css:finder"],
+        ["xpath=//div[@id='__next']/section/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Faça parte do Time Medcloud!')]", "xpath:innerText"]
+      ],
+      "value": "Faça parte do Time Medcloud!"
+    }, {
+      "id": "4f74d884-8733-46bc-91e5-25c5187c41b4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a",
+      "targets": [
+        ["css=.pl-4", "css:finder"],
+        ["xpath=//div[@id='__next']/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f3e6cc8-c4cd-4134-a606-9065e85d2595",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=headerHome",
+      "targets": [
+        ["id=headerHome", "id"],
+        ["css=#headerHome", "css:finder"],
+        ["xpath=//button[@id='headerHome']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": "Home"
+    }]
+  }, {
+    "id": "e57fc3bd-046b-4066-bde9-0bed4d674b99",
+    "name": "Caso 1: Acessar uma vaga",
+    "commands": [{
+      "id": "0b36ac8f-fbe3-4a4d-bb19-7872f941b64c",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ce26640-114d-421b-8f9b-055459116615",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa19c31e-8148-441e-b383-2956173b7de1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Carreiras",
+      "targets": [
+        ["linkText=Carreiras", "linkText"],
+        ["css=.xxl\\3Amt-12:nth-child(2) > li:nth-child(2) > .hover\\3Atext-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Carreiras')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'careers.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Carreiras')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14bc2626-4bf2-478f-ba8c-80a5e4196d80",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdbec89d-c0ec-490e-8bcd-4e5e460806da",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a/div/div[2]",
+      "targets": [
+        ["css=.w-1\\/3:nth-child(1) .absolute", "css:finder"],
+        ["xpath=//div[@id='__next']/section[6]/div/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd2eade7-77e5-4672-a719-1f0a6d3b8f93",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h1[contains(.,'Analista de Integrações')]",
+      "targets": [
+        ["css=.px-1\\/4 > .text-5xl", "css:finder"],
+        ["xpath=//div[@id='__next']/section/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Analista de Integrações')]", "xpath:innerText"]
+      ],
+      "value": "Analista de Integrações"
+    }, {
+      "id": "687daaeb-ef5b-4741-911a-a02f9dd47431",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/careers.html')]",
+      "targets": [
+        ["css=.pl-4", "css:finder"],
+        ["xpath=//div[@id='__next']/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/careers.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16937ec6-484b-43a8-b56a-ee56e75bea83",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a72e7d4-608d-4057-bb04-6898c118385d",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h1[contains(.,'Faça parte do Time Medcloud!')]",
+      "targets": [
+        ["css=.sm\\3Atext-left", "css:finder"],
+        ["xpath=//div[@id='__next']/section/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Faça parte do Time Medcloud!')]", "xpath:innerText"]
+      ],
+      "value": "Faça parte do Time Medcloud!"
+    }]
+  }, {
+    "id": "16eb14e3-c2c3-4a4d-a35d-4c83592392c5",
+    "name": "Caso 4: Acessar uma vaga e enviar formulário todo preenchido ",
+    "commands": [{
+      "id": "e3c956fe-a795-466a-b1c8-e88257415870",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2ccb716-de46-4378-8f18-f1820e6121b0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83925740-945a-42e6-861b-6264f472ccf0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Carreiras",
+      "targets": [
+        ["linkText=Carreiras", "linkText"],
+        ["css=.xxl\\3Amt-12:nth-child(2) > li:nth-child(2) > .hover\\3Atext-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Carreiras')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'careers.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Carreiras')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2155a7a0-323f-4346-bb60-d4ecc87017a7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "184edab1-fb6f-43f5-b7e1-3af77e7cad36",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/a/div",
+      "targets": [
+        ["css=.w-1\\/3:nth-child(2) .shadow-around", "css:finder"],
+        ["xpath=//div[@id='__next']/section[6]/div/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d7bd561-52fb-41f8-81b7-5eaa294ccf20",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h1[contains(.,'Analista de Suporte')]",
+      "targets": [
+        ["css=.px-1\\/4 > .text-5xl", "css:finder"],
+        ["xpath=//div[@id='__next']/section/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Analista de Integrações')]", "xpath:innerText"]
+      ],
+      "value": "Analista de Suporte"
+    }, {
+      "id": "99c69f52-dba6-49d6-ae8d-025c1a8f6630",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [],
+      "value": "Joazinho"
+    }, {
+      "id": "4534abf6-5849-4bf0-a71b-8e24f78dba95",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [],
+      "value": "Silva"
+    }, {
+      "id": "3671ffa6-ccfc-476f-803d-ea20918d63f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [],
+      "value": "joaozinho@teste.com"
+    }, {
+      "id": "89bd8ad9-6d82-423c-82fe-f6dab94b0995",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "41999665544"
+    }, {
+      "id": "3b3f3cc4-5ee5-4c18-ab06-1770a82dbfd5",
+      "comment": "",
+      "command": "type",
+      "target": "id=message",
+      "targets": [],
+      "value": "testando"
+    }, {
+      "id": "6f864769-6ce8-4a1f-a7ab-6aa6f5e62040",
+      "comment": "",
+      "command": "type",
+      "target": "id=curriculum",
+      "targets": [],
+      "value": "D:\\Downloads\\Service Requirements Specification (1).pdf"
+    }, {
+      "id": "300f0792-3da2-405d-ba34-35b694afa2cd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Enviar')]",
+      "targets": [
+        ["css=.text-xs", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/section[2]/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8ddaa451-89b2-4397-a49c-58ba4b2b9d35",
+    "name": "Caso 2: Acessar uma vaga e enviar formulário vazio ",
+    "commands": [{
+      "id": "20073d3e-787e-44de-881c-7a3f4bd47e80",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46352908-3191-40fe-b9c2-95f7f99d1b50",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdc8be29-b216-49fa-a471-65fee13cd99e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Carreiras",
+      "targets": [
+        ["linkText=Carreiras", "linkText"],
+        ["css=.xxl\\3Amt-12:nth-child(2) > li:nth-child(2) > .hover\\3Atext-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Carreiras')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'careers.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Carreiras')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b676188f-a418-4956-bdc2-523741dd616f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a7c6fbc-ddd4-4787-9815-3a5d45dd98c5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a/div/div[2]",
+      "targets": [
+        ["css=.w-1\\/3:nth-child(1) .absolute", "css:finder"],
+        ["xpath=//div[@id='__next']/section[6]/div/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7d2e4d9-517a-414b-ab4b-c29bd0627a98",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h1[contains(.,'Analista de Integrações')]",
+      "targets": [
+        ["css=.px-1\\/4 > .text-5xl", "css:finder"],
+        ["xpath=//div[@id='__next']/section/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Analista de Integrações')]", "xpath:innerText"]
+      ],
+      "value": "Analista de Integrações"
+    }, {
+      "id": "793e9d0e-4d42-4dd4-bbde-0b91249a1922",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e86280b-3526-4fd7-bf19-a704673b8b79",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [],
+      "value": " "
+    }, {
+      "id": "17795e11-3f7b-4ad2-b857-bcf131fbc7fc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Enviar')]",
+      "targets": [
+        ["css=.text-xs", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/section[2]/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e64a1f5-3919-4574-a2cb-af1270df3543",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//span[contains(.,'Sua candidatura para a vaga de Analista de Integrações foi efetuada com sucesso!')]",
+      "targets": [
+        ["id=__next", "id"],
+        ["css=#\\__next", "css:finder"],
+        ["xpath=//div[@id='__next']", "xpath:attributes"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": "Sua candidatura para a vaga de Analista de Integrações foi efetuada com sucesso!"
+    }]
+  }, {
+    "id": "3899177c-ef6b-4214-9848-6f909068c471",
+    "name": "Caso 3: Acessar uma vaga e enviar formulário com apenas um dado ",
+    "commands": [{
+      "id": "a86b11b0-2c8e-426a-862a-69ec0a9891a9",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80a96eaa-2abd-4294-9a3c-53ce87c93da4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f510c51d-8237-499f-aacd-d8a7eba33d92",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Carreiras",
+      "targets": [
+        ["linkText=Carreiras", "linkText"],
+        ["css=.xxl\\3Amt-12:nth-child(2) > li:nth-child(2) > .hover\\3Atext-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Carreiras')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'careers.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Carreiras')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03ea6bc9-ab1a-4486-9ba5-8c98da9acd59",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "819c07d0-3bae-425a-9426-adde27099e31",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a/div/div[2]",
+      "targets": [
+        ["css=.w-1\\/3:nth-child(1) .absolute", "css:finder"],
+        ["xpath=//div[@id='__next']/section[6]/div/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39cf2c1a-c20a-4d26-a18c-92cbeeca2dc5",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h1[contains(.,'Analista de Integrações')]",
+      "targets": [
+        ["css=.px-1\\/4 > .text-5xl", "css:finder"],
+        ["xpath=//div[@id='__next']/section/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Analista de Integrações')]", "xpath:innerText"]
+      ],
+      "value": "Analista de Integrações"
+    }, {
+      "id": "b1199be1-a8ce-491d-8c9f-94edf2bf796a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a1c50d4-38e0-404b-8f47-07c80a9ede90",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [],
+      "value": " Leonardo"
+    }, {
+      "id": "4cf7ac12-21d5-4e43-a76d-b3da11f71136",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Enviar')]",
+      "targets": [
+        ["css=.text-xs", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/section[2]/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a44c999-5244-498a-abf8-c3ac31036855",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9cdafefa-f842-46d5-a0a3-ef25ced4630c",
+    "name": "Cenário 1: Acessar todas as opções do menu e exibir as informações corretas ",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d964488a-d638-4c87-90a4-548b019790af", "155026a9-6abf-4152-aaea-c920e383e0ba", "99b36457-19e1-4ffd-b8d9-a8760d24f83b", "cc71986b-3780-47ba-9a30-cb4a87f6da73", "864b9b7f-77f9-4180-8d86-916cec253eff"]
+  }, {
+    "id": "4232338b-782e-4a93-9712-c8db4f72a903",
+    "name": "Cenário 2: Alterar imagem mouse over ",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["da2c806c-5750-463e-9ff4-2162fecd1e19", "9147ef3d-4b57-47e6-b1f8-73369a1b1943", "7632587d-b9cb-4516-b2ac-1b08a2181e91"]
+  }, {
+    "id": "e6f2c9f9-9ee9-4e27-a96b-184aa27c02a9",
+    "name": "Cenário 3: Clicar nos botões \"Testar Grátis\" ",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e353f9f8-d8d9-4e25-9a1c-d0e118b644d2", "761f7b66-7207-4541-baaa-1019d010ef67"]
+  }, {
+    "id": "24758825-4633-4737-a6fc-ec1a385e2ecb",
+    "name": "Cenário 4: Validação do formulário do \"Contato\" ",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ecd9aa36-4c47-4549-9e14-0a5cb9c55d57", "6e30a584-caa1-4c9b-9156-c398ef581f02", "284841a3-ddc9-48cd-9383-3f4278df8bcc", "f907c7bd-681c-4d70-b66b-2d78f987df97", "9efa1615-9004-404f-ba57-e961db7bd011", "67eaf301-329a-4d96-9297-529e428eb96b"]
+  }, {
+    "id": "463e0828-91e0-48f3-b4da-3b043c27fe44",
+    "name": "Cenário 5: Alterar o idioma do site ",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["81814de3-3f9f-4b5c-835c-67819180e159", "aa2c72f2-9d66-4627-ab06-6cd6f7f52d06", "480fd6a4-2d5d-4c82-bfb6-3e956ecb8e8f"]
+  }, {
+    "id": "ea3941c0-d835-47d3-80a3-32553818b434",
+    "name": "Cenário 6: Acessar as páginas Sobre, Carreiras, Política de privacidade e Termos de uso e retornar a página Home ",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["48301306-0ec3-4b19-95a9-5c9fd0afd621", "e2148411-beee-4f77-8b3f-262bde204008"]
+  }, {
+    "id": "35b0285e-e0be-4b63-91de-bd9cf2f7460a",
+    "name": "Cenário 7: Acessar vagas na página Carreiras",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e57fc3bd-046b-4066-bde9-0bed4d674b99", "8ddaa451-89b2-4397-a49c-58ba4b2b9d35", "3899177c-ef6b-4214-9848-6f909068c471", "16eb14e3-c2c3-4a4d-a35d-4c83592392c5"]
+  }],
+  "urls": ["https://qa.medcloud.link/"],
+  "plugins": []
+}
